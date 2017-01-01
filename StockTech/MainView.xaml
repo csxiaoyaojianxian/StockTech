@@ -1,0 +1,34 @@
+﻿<!-- 
+//可视化股票技术分析软件
+    -->
+    
+    <UserControl x:Class="StockTech.MainView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+                 xmlns:my="clr-namespace:StockTech.Controls" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid >
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="48" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="48" />
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0">
+            <Canvas  x:Name="leftLayout"></Canvas>
+        </Grid>
+
+        
+        <Grid x:Name="grid" Grid.Column="1">
+        </Grid>
+
+        <Grid Grid.Column="2">
+            <Canvas  x:Name="rightLayout"></Canvas>
+        </Grid>
+        
+    </Grid>
+</UserControl>

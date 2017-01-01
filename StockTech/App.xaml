@@ -1,0 +1,11 @@
+﻿<!-- 
+//可视化股票技术分析软件
+    -->
+    <Application x:Class="StockTech.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

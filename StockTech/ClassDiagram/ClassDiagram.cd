@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="StockTech.App">
+    <Position X="41.5" Y="9.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.DrawingCanvas">
+    <Position X="0.5" Y="2.25" Width="3.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="StockTech.DrawingCanvas.PriceChangedEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DrawingCanvas.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="StockTech.DrawingCanvas.RegionChangedHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DrawingCanvas.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <InheritanceLine Type="System.Windows.FrameworkElement" FixedFromPoint="true">
+      <Path>
+        <Point X="2.25" Y="1.677" />
+        <Point X="2.25" Y="2.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>MNAMRhgiD4AAQCUtUQgJqBhQQRMoZgQAOFoIIBlXIGQ=</HashCode>
+      <FileName>DrawingCanvas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.DrawingObject">
+    <Position X="6.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAABAgQAAAAQAAAAAAAABAAAAQAAgAAgAAA=</HashCode>
+      <FileName>DrawingCanvas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.MainView" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="1.75" Width="3.5" />
+    <NestedTypes>
+      <Delegate Name="StockTech.MainView.PriceChangedEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MainView.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BBSEAwAAAYAEAAkABAAECAACABIMIAQCAAAEAAEAAQA=</HashCode>
+      <FileName>MainView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StockTech.MainWindow" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="2" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAIAAgAAAAAAAAAAAgAAAAAAAEAAQEAAQgAAAAAAAI=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StockTech.PathConfig" Collapsed="true">
+    <Position X="39.75" Y="1" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAACAAAAAAAAAAIAgAAAAAAAAAAAAgAABAA=</HashCode>
+      <FileName>PathConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.StockContextMenu">
+    <Position X="37.5" Y="11.25" Width="3.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="StockTech.StockContextMenu.MenuItemClickedHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>StockContextMenu.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAABAAAAgAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>StockContextMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Controls.AutoComplete">
+    <Position X="5.25" Y="15.25" Width="3.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="StockTech.Controls.AutoComplete.AutoCompleteArgs" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\AutoComplete.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Delegate Name="StockTech.Controls.AutoComplete.AutoCompleteHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\AutoComplete.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QQAAAAAEAIBAQCAgKAIAIIAoAAJJAAAIAQAACAAAAAA=</HashCode>
+      <FileName>Controls\AutoComplete.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Controls.StockAutoComplete">
+    <Position X="10.25" Y="17.25" Width="3.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="StockTech.Controls.StockAutoComplete.SymbolSelectedEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\AutoCompleteStock.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAQAABAAAAAAAAAAIAAAAQAAMAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Controls\AutoCompleteStock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Controls.CrossLine">
+    <Position X="17.25" Y="13.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAQAAAAAAABAAAAAAAEpgIAAAAAA=</HashCode>
+      <FileName>Controls\CrossLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Controls.PriceInfoBox" BaseTypeListCollapsed="true">
+    <Position X="19.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\PriceInfoBox.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StockTech.Controls.RadioButtons">
+    <Position X="34.75" Y="11.25" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="StockTech.Controls.RadioButtons.CheckedHandler">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\RadioButtons.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAACAAEAAAEgAAAAAEAAAA=</HashCode>
+      <FileName>Controls\RadioButtons.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Controls.SelectPannel" BaseTypeListCollapsed="true">
+    <Position X="26.5" Y="19" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Events" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="StockTech.Controls.SelectPannel.SymbolSelectedEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\SelectPanel.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAACaAAAAAEAAAQAggAAAACAAAA=</HashCode>
+      <FileName>Controls\SelectPanel.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StockTech.Controls.SelectPanelAll" BaseTypeListCollapsed="true">
+    <Position X="28.75" Y="21.25" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Events" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="StockTech.Controls.SelectPanelAll.SymbolSelectedEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\SelectPanelAll.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAABAAIAAgIAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\SelectPanelAll.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StockTech.Controls.SelectPanelIndex" BaseTypeListCollapsed="true">
+    <Position X="28.75" Y="14.5" Width="3.75" />
+    <NestedTypes>
+      <Delegate Name="StockTech.Controls.SelectPanelIndex.SymbolSelectedEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\SelectPanelIndex.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAEAAAAAAAIAAgAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\SelectPanelIndex.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StockTech.Controls.SelectPanelIndust" BaseTypeListCollapsed="true">
+    <Position X="28.75" Y="19.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Events" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="StockTech.Controls.SelectPanelIndust.SymbolSelectedEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\SelectPanelIndust.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAEAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\SelectPanelIndust.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StockTech.Controls.SelectPanelUser" BaseTypeListCollapsed="true">
+    <Position X="28.75" Y="17.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Events" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="StockTech.Controls.SelectPanelUser.SymbolSelectedEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\SelectPanelUser.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAABIAIAAAAAAAAAAEAAAAQAAIAAAAAAAA=</HashCode>
+      <FileName>Controls\SelectPanelUser.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StockTech.Data.DayDb">
+    <Position X="7.5" Y="7" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BBAAAEACAIAAAAAAAgIQAAAAAIAAIAKEAAEGEABABAA=</HashCode>
+      <FileName>Data\DayDb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Data.PriceList">
+    <Position X="9.75" Y="7" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAgEQAAABEAAAAABAABAAAAAFAAAARYIEAACCBAA=</HashCode>
+      <FileName>Data\DayDb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Data.DayPrice">
+    <Position X="7.5" Y="8.75" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAgBAIAAAAgAAAASAAAgAAAABAIIFAACACAA=</HashCode>
+      <FileName>Data\DayDb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Data.IndexItem">
+    <Position X="35.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Data\IndexFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Data.IndexFile">
+    <Position X="12.5" Y="21.5" Width="1.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAgAAAAAAAAAAAIAAAACAAAAAAA=</HashCode>
+      <FileName>Data\IndexFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Data.StockNode">
+    <Position X="21.25" Y="13.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\IndustFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Data.IndustFile">
+    <Position X="14" Y="21.5" Width="1.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAACAAAAAgAAAAAAAAAAAAABAACAAAAAAA=</HashCode>
+      <FileName>Data\IndustFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Data.MetaItem">
+    <Position X="7" Y="21.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAQAAAAEAIAAAACAAAAACAA=</HashCode>
+      <FileName>Data\MetaFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Data.MetaFile">
+    <Position X="9.25" Y="21.5" Width="3" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAgABAAAAEAAAAIAAABGAAAAAAA=</HashCode>
+      <FileName>Data\MetaFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Data.PortfolioItem">
+    <Position X="19.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAASAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Data\PortfolioFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Data.PortfolioFile">
+    <Position X="31" Y="18.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Events" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="StockTech.Data.PortfolioFile.ItemHander" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Data\PortfolioFile.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAIAAAAAAEAQAAAAAgAAAAAAIAAEASAACCAAE=</HashCode>
+      <FileName>Data\PortfolioFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Download.DayDbDown">
+    <Position X="29" Y="1" Width="3" />
+    <NestedTypes>
+      <Delegate Name="StockTech.Download.DayDbDown.DateDownHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Download\DayDbDown.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="StockTech.Download.DayDbDown.DownFinishHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Download\DayDbDown.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="StockTech.Download.DayDbDown.NoNewDataHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Download\DayDbDown.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>IACQAEACAFACBAAgAgAAAIZQAAlEAAIgAIICAARAAUA=</HashCode>
+      <FileName>Download\DayDbDown.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Properties.Resources">
+    <Position X="32.25" Y="1" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Properties.Settings">
+    <Position X="39.75" Y="1.75" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAIAAAAAABAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Py.PyEngine">
+    <Position X="15.25" Y="1.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>FAAAAAAAAAgAAAAAQAAgAAACAAgoAAIAAAwCEAQAgAA=</HashCode>
+      <FileName>Py\PyEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Py.StockEngine">
+    <Position X="18.5" Y="1.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>jgEBCgAAgAAACAhBUAyBAAgGCARACAIIAQQaAgABCAE=</HashCode>
+      <FileName>Py\StockEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Update.UpdateData" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="2" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="StockTech.Update.UpdateData.DayPrice">
+        <TypeIdentifier>
+          <NewMemberFileName>Update\UpdateData.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEFBBEAcQAEMBiBAAQwBBAAAIoAgUALEAWRR2ACEBIA=</HashCode>
+      <FileName>Update\UpdateData.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StockTech.Util.CommonUtil">
+    <Position X="33" Y="5.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>CiAAAQAAgAAAAACAIDAACAAAAAAAQgAIAAQAAAAAgAA=</HashCode>
+      <FileName>Util\CommonUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Util.MathUtil">
+    <Position X="36" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAgAAAAAAAAAAEBECAgAAAAAA=</HashCode>
+      <FileName>Util\MathUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Util.StockUtil">
+    <Position X="38.25" Y="5.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAGCACAAAAAAAAAABAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Util\StockUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.FrameworkElement" Collapsed="true">
+    <Position X="0.5" Y="1" Width="3.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.532" />
+  </Class>
+  <Class Name="System.Windows.Window" Collapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.Controls.ComboBox" Collapsed="true">
+    <Position X="10.25" Y="15.75" Width="3.75" />
+    <TypeIdentifier />
+  </Class>
+  <Enum Name="StockTech.DrawingObjectType">
+    <Position X="4.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQA=</HashCode>
+      <FileName>DrawingCanvas.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

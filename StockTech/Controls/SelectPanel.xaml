@@ -1,0 +1,40 @@
+﻿<!-- 
+//可视化股票技术分析软件
+    -->
+    <UserControl x:Class="StockTech.Controls.SelectPannel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+                 xmlns:my="clr-namespace:StockTech.Controls" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Border BorderBrush="Gray" BorderThickness="1">
+        <Grid >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="42" />
+                    <ColumnDefinition Width="42" />
+                    <ColumnDefinition Width="42" />
+                    <ColumnDefinition Width="42" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <RadioButton IsChecked="True" x:Name="radioUser" Content="用户" GroupName="selectPanel" Grid.Column="0" Click="selectUser_Click" VerticalAlignment="Center"  ></RadioButton>
+                <RadioButton x:Name="radioIndex" Content="指数" GroupName="selectPanel" Grid.Column="1" Click="selectIndex_Click" VerticalAlignment="Center"  ></RadioButton>
+                <RadioButton x:Name="radioIndust" Content="行业" GroupName="selectPanel" Grid.Column="2" Click="selectIndust_Click" VerticalAlignment="Center"  ></RadioButton>
+                <RadioButton x:Name="radioAll" Content="所有" GroupName="selectPanel" Grid.Column="3" Click="selectPanelAll_Click" VerticalAlignment="Center"  ></RadioButton>
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <my:SelectPanelAll x:Name="panelAll"/>
+                <my:SelectPanelIndex x:Name="panelIndex"/>
+                <my:SelectPanelIndust x:Name="panelIndust"/>
+                <my:SelectPanelUser x:Name="panelUser"/>
+            </Grid>
+        </Grid>
+    </Border>
+</UserControl>

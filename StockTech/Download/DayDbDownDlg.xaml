@@ -1,0 +1,35 @@
+﻿<Window x:Class="StockTech.Download.DayDbDownDlg"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         Title="下载日线" Height="200" Width="300" 
+        MaxHeight="200" MaxWidth="300"
+        ResizeMode="NoResize"
+        WindowStyle="ToolWindow">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="24" />
+            <RowDefinition Height="24" />
+            <RowDefinition Height="24" />
+            <RowDefinition Height="24" />
+            <RowDefinition Height="24" />
+            <RowDefinition Height="24" />
+            <RowDefinition Height="24" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="textblockTitle">下载按日日线数据...</TextBlock>
+
+        <TextBlock Grid.Row="1" x:Name="textCurrentDown">正在下载:</TextBlock>
+
+        <ProgressBar  HorizontalAlignment="Stretch"  Margin="2,2,2,2" Name="progressBar"  Grid.Row="2" />
+        <Grid Grid.Row="3" Margin="0,0,0,0" Name="grid1" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="64" />
+                <ColumnDefinition Width="64" />
+            </Grid.ColumnDefinitions>
+            <TextBlock Name="pathTxtblk"></TextBlock>
+            <Button Content="开始"   Name="buttonStart"  Margin="2,2,2,2" Grid.Column="2" Click="buttonStart_Click" />
+        </Grid>
+
+    </Grid>
+</Window>

@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="StockTech.App" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.DrawingCanvas" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MNAMRhgiD4AAQCUtUQgJqBhQQRMoZgQAOFoIIBlXIGQ=</HashCode>
+      <FileName>DrawingCanvas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.DrawingObject" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAABAgQAAAAQAAAAAAAABAAAAQAAgAAgAAA=</HashCode>
+      <FileName>DrawingCanvas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.MainView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBSEAwAAAYAEAAkABAAECAACABIMIAQCAAAEAAEAAQA=</HashCode>
+      <FileName>MainView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StockTech.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAgAAAAAAAAAAAgAAAAAAAEAAQEAAQgAAAAAAAI=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StockTech.PathConfig" Collapsed="true">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAACAAAAAAAAAAIAgAAAAAAAAAAAAgAABAA=</HashCode>
+      <FileName>PathConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.StockContextMenu" Collapsed="true">
+    <Position X="4.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAABAAAAgAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>StockContextMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Controls.AutoComplete" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAAAAAEAIBAQCAgKAIAIIAoAAJJAAAIAQAACAAAAAA=</HashCode>
+      <FileName>Controls\AutoComplete.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Controls.StockAutoComplete" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAABAAAAAAAAAAIAAAAQAAMAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Controls\AutoCompleteStock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Controls.CrossLine" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAQAAAAAAABAAAAAAAEpgIAAAAAA=</HashCode>
+      <FileName>Controls\CrossLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Controls.PriceInfoBox" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\PriceInfoBox.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StockTech.Controls.RadioButtons" Collapsed="true">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAACAAEAAAEgAAAAAEAAAA=</HashCode>
+      <FileName>Controls\RadioButtons.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Controls.SelectPannel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAACaAAAAAEAAAQAggAAAACAAAA=</HashCode>
+      <FileName>Controls\SelectPanel.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StockTech.Controls.SelectPanelAll" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAABAAIAAgIAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\SelectPanelAll.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StockTech.Controls.SelectPanelIndex" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAEAAAAAAAIAAgAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\SelectPanelIndex.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StockTech.Controls.SelectPanelIndust" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAEAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\SelectPanelIndust.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StockTech.Controls.SelectPanelUser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAABIAIAAAAAAAAAAEAAAAQAAIAAAAAAAA=</HashCode>
+      <FileName>Controls\SelectPanelUser.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StockTech.Data.DayDb" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBAAAEACAIAAAAAAAgIQAAAAAIAAIAKEAAEGEABABAA=</HashCode>
+      <FileName>Data\DayDb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Data.PriceList" Collapsed="true">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAgEQAAABEAAAAABAABAAAAAFAAAARYIEAACCBAA=</HashCode>
+      <FileName>Data\DayDb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Data.DayPrice" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAgBAIAAAAgAAAASAAAgAAAABAIIFAACACAA=</HashCode>
+      <FileName>Data\DayDb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Data.IndexItem" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Data\IndexFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Data.IndexFile" Collapsed="true">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAgAAAAAAAAAAAIAAAACAAAAAAA=</HashCode>
+      <FileName>Data\IndexFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Data.StockNode" Collapsed="true">
+    <Position X="8.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\IndustFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Data.IndustFile" Collapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAACAAAAAgAAAAAAAAAAAAABAACAAAAAAA=</HashCode>
+      <FileName>Data\IndustFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Data.MetaItem" Collapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAQAAAAEAIAAAACAAAAACAA=</HashCode>
+      <FileName>Data\MetaFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Data.MetaFile" Collapsed="true">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAgABAAAAEAAAAIAAABGAAAAAAA=</HashCode>
+      <FileName>Data\MetaFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Data.PortfolioItem" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAASAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Data\PortfolioFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Data.PortfolioFile" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAIAAAAAAEAQAAAAAgAAAAAAIAAEASAACCAAE=</HashCode>
+      <FileName>Data\PortfolioFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Download.DayDbDown" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IACQAEACAFACBAAgAgAAAIZQAAlEAAIgAIICAARAAUA=</HashCode>
+      <FileName>Download\DayDbDown.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Download.DayDbDownDlg" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAIAAAAAAIAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Download\DayDbDownDlg.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StockTech.Properties.Resources" Collapsed="true">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Properties.Settings" Collapsed="true">
+    <Position X="3" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAIAAAAAABAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Py.PyEngine" Collapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAAAAAAAAAgAAAAAQAAgAAACAAgoAAIAAAwCEAQAgAA=</HashCode>
+      <FileName>Py\PyEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Py.StockEngine" Collapsed="true">
+    <Position X="6.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>jgEBCgAAgAAACAhBUAyBAAgGCARACAIIAQQaAgABCAE=</HashCode>
+      <FileName>Py\StockEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Update.UpdateData" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEBABEAEAAEIBCBAAAgBBAAAAoAgEAKEAURRGACEBIA=</HashCode>
+      <FileName>Update\UpdateData.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StockTech.Util.CommonUtil" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CiAAAQAAgAAAAACAIDAACAAAAAAAQgAIAAQAAAAAgAA=</HashCode>
+      <FileName>Util\CommonUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Util.MathUtil" Collapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAgAAAAAAAAAAEBECAgAAAAAA=</HashCode>
+      <FileName>Util\MathUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockTech.Util.StockUtil" Collapsed="true">
+    <Position X="10" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAGCACAAAAAAAAAABAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Util\StockUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="StockTech.DrawingObjectType" Collapsed="true">
+    <Position X="3" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQA=</HashCode>
+      <FileName>DrawingCanvas.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
